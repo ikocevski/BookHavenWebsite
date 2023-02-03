@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+}
+
+.content-wrapperr {
+    margin:30px;
+    min-height: 100vh;
+    padding-bottom: 50px; /* adjust this value to the height of your footer */
+    position: relative;
+}
+
+
+#logout, #manage {
+    color: white;
+}
